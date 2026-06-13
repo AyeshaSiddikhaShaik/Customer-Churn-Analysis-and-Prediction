@@ -63,6 +63,33 @@ The objective is to identify key behavioral patterns that influence churn and pr
 The model demonstrated moderate predictive performance and successfully identified major churn patterns within the dataset.
 
 ---
+## Model Evaluation
+
+The Logistic Regression model was evaluated using:
+
+- Accuracy Score
+- Confusion Matrix
+- Classification Report
+- Precision, Recall, and F1-score
+
+The model achieved an accuracy of 65.36% and demonstrated better identification of churn customers, achieving higher recall for churn prediction.
+
+## Project Visualizations
+
+### Customer Churn Distribution
+
+Visual analysis of churned and retained customers to understand overall churn patterns.
+
+![Churn Distribution](churn_distribution.png)
+
+
+### Confusion Matrix
+
+Evaluation of model predictions showing correctly and incorrectly classified customers.
+
+![Confusion Matrix](confusion_matrix.png)
+
+
 
 ## Business Recommendations
 
@@ -87,12 +114,17 @@ The model demonstrated moderate predictive performance and successfully identifi
 
 ## Future Enhancements
 
-* Random Forest Classification
-* XGBoost Model
-* Hyperparameter Tuning
-* Real-Time Churn Prediction Dashboard
+Future improvements include:
 
+* Implementing advanced models such as Random Forest and XGBoost.
+* Applying hyperparameter optimization techniques.
+* Developing a real-time customer churn prediction dashboard.
+* Deploying the model as an interactive ML application.
+  
 ---
+ ## Project Impact
+
+This project demonstrates how machine learning can transform customer behavior data into actionable retention strategies. By identifying early churn signals, businesses can move from reactive customer management to proactive retention.
 
 ## Author
 
